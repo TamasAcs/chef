@@ -51,10 +51,9 @@ body {
   height: 100px;
   cursor: pointer;
 }
-.logo a{
-    color: white;
-    text-decoration: none;
-    
+.logo a {
+  color: white;
+  text-decoration: none;
 }
 .massimo {
   font-family: "Dancing Script", cursive;
@@ -80,7 +79,7 @@ body {
 }
 
 .nav ul li {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   list-style: none;
   cursor: pointer;
 }
@@ -102,30 +101,26 @@ body {
   position: absolute;
   right: 0;
   padding: 200px 40px 50px 40px;
+  background-color: rgb(48, 47, 47);
 }
 
-.black {
-  background-color: rgb(48, 47, 47);
-  height: 100%;
-}
 
 .info h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding-bottom: 40px;
 }
 .info h2 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 .info p {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   padding-bottom: 10px;
   padding-left: 0;
 }
 
 .book {
-  width: 230px;
+  width: 200px;
   height: 30px;
-  font-size: 1.9rem;
   font-weight: 500;
   text-align: center;
   background-color: transparent;
@@ -142,11 +137,11 @@ body {
 
 .recipes {
   position: absolute;
-  bottom: 180px;
-  left: 220px;
-  width: 150px;
+  bottom: 150px;
+  left: 130px;
+  width: 120px;
   height: 2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   background-color: transparent;
   color: white;
@@ -166,8 +161,8 @@ body {
 }
 
 .sample {
-  width: 60%;
-  height: 200px;
+  width: 55%;
+  height: 150px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -178,10 +173,13 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
 }
-
+.sample h2 {
+  font-size: 1.1rem;
+}
 .sample1 .more {
   position: absolute;
-  right: 650px;
+  right: 440px;
+  bottom: 10px;
   padding-top: 0;
   border-bottom: 2px solid white;
   padding-left: 5px;
@@ -192,14 +190,15 @@ body {
 .sample2 .more {
   position: absolute;
   right: 40px;
+  bottom: 10px;
   padding-top: 20px;
   border-bottom: 2px solid white;
   padding-left: 5px;
   cursor: pointer;
 }
 .sample img {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   position: absolute;
   top: -30px;
 }
@@ -209,11 +208,15 @@ body {
   width: 50%;
 }
 .sample1 p {
-  padding-right: 50px;
-  line-height: 1.7rem;
+  padding-right: 20px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding-top: 20px;
 }
 .sample2 p {
-  line-height: 1.7rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding-top: 20px;
 }
 .sample2 {
   height: 150px;
@@ -221,7 +224,7 @@ body {
 }
 .sample h2,
 p {
-  padding-left: 200px;
+  padding-left: 180px;
   padding-top: 10px;
 }
 .line {
@@ -229,7 +232,7 @@ p {
   height: 5px;
   border-bottom: 2px solid white;
   position: absolute;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 /* about */
@@ -258,7 +261,8 @@ p {
   height: 100%;
   position: absolute;
   right: 0;
-  padding: 200px 40px 50px 40px;
+  padding: 150px 40px 50px 40px;
+  background-color: rgb(48, 47, 47);
 }
 .aboutinfo img {
   width: 100px;
@@ -276,17 +280,20 @@ p {
   padding-bottom: 0;
 }
 .aboutinfo p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 10px;
   padding-left: 0;
 }
 .aboutinfo h3 {
   padding: 40px 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .aboutinfo ul {
   padding-left: 20px;
   line-height: 1.5rem;
+}
+.aboutinfo ul li {
+  font-size: 0.8rem;
 }
 
 .aboutinfo h1 {
@@ -294,22 +301,20 @@ p {
 }
 
 .aboutinfo h2 {
-  width: 290px;
+  width: 240px;
   height: 30px;
-  font-size: 1.9rem;
-  font-weight: 500;
   text-align: center;
   background-color: transparent;
   color: white;
   line-height: 1.5rem;
   margin-bottom: 10px;
-  margin-top: 80px;
   border: none;
   border-bottom: 3px solid white;
   position: absolute;
   right: 40px;
   cursor: pointer;
 }
+
 .footer {
   width: 90%;
   display: flex;
@@ -345,66 +350,70 @@ p {
   height: 100%;
   position: absolute;
   right: 0;
-  padding: 150px 50px 50px 150px;
+  padding: 120px 50px 20px 80px;
+  background-color: rgb(48, 47, 47);
 }
 .menuinfo h1 {
-  font-size: 2rem;
-  padding-bottom: 30px;
+  font-size: 1.6rem;
+  padding-bottom: 20px;
 }
 .menuinfo h2 {
-  padding: 30px 0;
+  font-size: 1.2rem;
+  padding: 20px 0;
 }
 .menuinfo h3 {
-  width: 290px;
+  width: 240px;
   height: 30px;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 500;
   text-align: center;
   background-color: transparent;
   color: white;
   line-height: 1.5rem;
   margin-bottom: 10px;
-  margin-top: 80px;
+  margin-top: 100px;
   border: none;
   border-bottom: 3px solid white;
   position: absolute;
-  right: 40px;
-  bottom: 100px;
+  right: 100px;
+  bottom: 70px;
   cursor: pointer;
 }
+
 .menuinfo p {
+  font-size: 0.9rem;
   padding: 0 20px;
 }
 .menuinfo img {
-  width: 120px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
 }
 
 .one {
-  width: 76%;
+  width: 79%;
   display: flex;
   align-items: center;
-  line-height: 1.8rem;
+  line-height: 1rem;
   justify-content: space-between;
   border-left: 2px solid white;
-  margin-left: -85px;
-  padding-left: 85px;
+  margin-left: -45px;
+  padding-left: 45px;
 }
 .two {
-  width: 110%;
+  width: 115%;
   display: flex;
   align-items: center;
-  line-height: 1.8rem;
+  line-height: 1rem;
   justify-content: space-between;
   border-left: 2px solid white;
-  margin-left: -85px;
-  padding-left: 85px;
+  margin-left: -45px;
+  padding-left: 45px;
 }
 .three {
-  width: 68%;
+  width: 73%;
   display: flex;
   align-items: center;
-  line-height: 1.8rem;
+  line-height: 1rem;
   justify-content: space-between;
 }
 
@@ -418,21 +427,22 @@ p {
 
 .dots {
   height: 100%;
-  padding-top: 100px;
+  padding-top: 75px;
   position: absolute;
-  left: 30px;
-  width: 70px;
+  left: 10px;
+  width: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 0.7rem;
 }
 .dot1 {
   width: 100%;
-  margin-bottom: 170px;
+  margin-bottom: 130px;
 }
 .dot2 {
   width: 100%;
-  margin-bottom: 170px;
+  margin-bottom: 128px;
 }
 .dot3 {
   width: 100%;
@@ -463,12 +473,12 @@ p {
 }
 
 .cblack {
-  background:linear-gradient(90deg,transparent, black);
+  background: linear-gradient(90deg, transparent, black);
   height: 100%;
 }
 .card {
-  width: 450px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
 }
@@ -480,56 +490,60 @@ p {
   height: 100%;
   padding: 20px 40px;
 }
-.form h1{
-    font-family: "Dancing Script", cursive;
-    font-size: 3rem;
-    text-align: center;
-    width: 100%;
+.form h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
 }
-.form input, label{
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    padding: 3px;
-    letter-spacing: 2px;
-    outline: none;
-    background-color: transparent;
-    border: none;
+.form input,
+label {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding: 3px;
+  letter-spacing: 2px;
+  outline: none;
+  background-color: transparent;
+  border: none;
 }
 
-.form input::placeholder{
-    color: rgb(197, 197, 197);
-    font-style: italic;
+.form input::placeholder {
+  color: rgb(197, 197, 197);
+  font-style: italic;
 }
-.form input[type="text"],input[type="email"]{
-    border-bottom: 2px solid white;
-    color: white;
+.form input[type="text"],
+input[type="email"] {
+  border-bottom: 2px solid white;
+  color: white;
 }
-.form textarea{
-    resize: none;
-    padding: 5px;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
+.form textarea {
+  resize: none;
+  padding: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }
-.send{
-    height: 40px;
-    width: 150px;
-    font-family: "Dancing Script", cursive;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    color: black;
-    border-radius: 10px;
-    font-weight: 1000;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 50%;
-    outline: none;
-    transform: translateX(-50%);
-    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .9), inset -2px -2px 2px rgba(0, 0, 0, .9);
+.send {
+  height: 40px;
+  width: 150px;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: black;
+  border-radius: 10px;
+  font-weight: 1000;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 50%;
+  outline: none;
+  transform: translateX(-50%);
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.9),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.9);
 }
-.send:active{
-    outline:none;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8), inset -1px -1px 1px rgba(255, 255, 255, .4);
-    transition: all .1s ease;
+.send:active {
+  outline: none;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.8),
+    inset -1px -1px 1px rgba(255, 255, 255, 0.4);
+  transition: all 0.1s ease;
 }
 
 .contactfooter {
