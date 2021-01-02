@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>About Massimo</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="main">
-        <div class="about"></div>
-        <div class="logo">
-            <h1 class="massimo">Massimo</h1>
+      <div class="about"></div>
+      <div class="logo"><a href="index.html"><h1 class="massimo">Massimo</h1></a>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About Massimo</a></li>
+          <li><a href="menu.html">Chef's Menu</a></li>
+          <li>Chef's Wine List</li>
+          <li>Recipes</li>
+          <li>Book Chef Massimo</li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="gap"></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-facebook-square"></i></li>
+        </ul>
+      </div>
+
+      <div class="aboutinfo black">
+        <div class="intro" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+          <img src="./images/profile.png" alt="profile picture" />
+          <h1>About Chef Massimo</h1>
         </div>
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex eum
+          voluptatem tempora quod earum suscipit est officia doloremque, saepe
+          iure libero doloribus ullam quos aliquam magni illum quis! Quidem?
+        </p>
+        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi
+          sit modi sequi culpa consectetur iusto assumenda labore alias tempora.
+        </p>
+        <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">Restaurants he worked</h3>
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+          <li>LO SCOGLIO</li>
+          <li>MAMMA IN CUCINA</li>
+          <li>AMICO CHEF</li>
+          <li>SCOLA LA PASTA</li>
+          <li>LA COZZA INFURIATA</li>
+        </ul>
 
-        <div class="nav">
-            <ul>
-                <li class="active">Home</li>
-                <li>About Massimo</li>
-                <li>Chef's Menu</li>
-                <li>Chef's Wine List</li>
-                <li>Recipes</li>
-                <li>Book Chef Massimo</li>
-                <li>Contact Us</li>
-                <li class="gap"></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook-square"></i></li>
-            </ul>
+        <h2 data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1700">Book Chef Massimo</h2>
+        <div class="footer">
+          <p>Chef Massimo &copy; 2020 All Rights Reserved.</p>
         </div>
+      </div>
+    </section>
 
 
-        <div class="aboutinfo black">
-            <div class="intro"><img src="./images/profile.png" alt="profile picture">
-            <h1>
-               About Chef Massimo
-            </h1>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex eum voluptatem tempora quod earum suscipit est officia doloremque, saepe iure libero doloribus ullam quos aliquam magni illum quis! Quidem?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi sit modi sequi culpa consectetur iusto assumenda labore alias tempora.
-            </p>
-            <h3>Restaurants he worked</h3>
-            <ul>
-                <li>LO SCOGLIO</li>
-                <li>MAMMA IN CUCINA</li>
-                <li>AMICO CHEF</li>
-                <li>SCOLA LA PASTA</li>
-                <li>LA COZZA INFURIATA</li>
-            </ul>
 
-            <h2>Book Chef Massimo</h2>
-            <div class="footer">
-                <p>
-                    Chef Massimo &copy; 2020 All Rights Reserved.
-                </p>
-            </div>
-        </div>
-
-
-</section>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </body>
 </html>

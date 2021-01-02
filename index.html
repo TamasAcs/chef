@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Chef Massimo</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="main">
-        <div class="hero"></div>
-        <div class="logo">
-            <h1 class="massimo">Massimo</h1>
-        </div>
+      <div class="hero"></div>
+      <div class="logo">
+        <a href="index.html"><h1 class="massimo">Massimo</h1></a>
+      </div>
 
-        <div class="nav">
-            <ul>
-                <li class="active">Home</li>
-                <li>About Massimo</li>
-                <li>Chef's Menu</li>
-                <li>Chef's Wine List</li>
-                <li>Recipes</li>
-                <li>Book Chef Massimo</li>
-                <li>Contact Us</li>
-                <li class="gap"></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook-square"></i></li>
-            </ul>
-        </div>
+      <div class="nav">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Massimo</a></li>
+          <li><a href="menu.html">Chef's Menu</a></li>
+          <li>Chef's Wine List</li>
+          <li>Recipes</li>
+          <li>Book Chef Massimo</li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="gap"></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-facebook-square"></i></li>
+        </ul>
+      </div>
 
-        <div class="sample">
-            <div class="sample1">
-                <img src="./images/shrimp.jpg" alt="shrimp">
-                <h2>Cocolicious Açaí Shrimp</h2>
-                <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit unde natus id? Dolor, quaerat?</p>
-                <p class="more">Know more...</p>
-            </div>
-            <div class="sample2">
-                <img src="./images/firesteak.jpg" alt="firesteak">
-                <h2>Fire Steak</h2>
-                <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt eius ipsam beatae odit officiis?</p>
-                <p class="more">Know more...</p>
-            </div>
+      <div class="sample" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+        <div class="sample1">
+          <img src="./images/shrimp.jpg" alt="shrimp" />
+          <h2>Cocolicious Açaí Shrimp</h2>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+            suscipit unde natus id? Dolor, quaerat?
+          </p>
+          <p class="more">Know more...</p>
         </div>
-        <div class="info black">
-            <h1>
-                What the Chef can do for you...
-            </h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex eum voluptatem tempora quod earum suscipit est officia doloremque, saepe iure libero doloribus ullam quos aliquam magni illum quis! Quidem?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi sit modi sequi culpa consectetur iusto assumenda labore alias tempora.
-            </p>
-            <h2 class="book">Book Chef Massimo</h2>
-<button class="recipes">See All Recipes</button>
-            <div class="footer">
-                <p>
-                    Chef Massimo &copy; 2020 All Rights Reserved.
-                </p>
-            </div>
+        <div class="sample2">
+          <img src="./images/firesteak.jpg" alt="firesteak" />
+          <h2>Fire Steak</h2>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            nesciunt eius ipsam beatae odit officiis?
+          </p>
+          <p class="more">Know more...</p>
         </div>
-
+      </div>
+      <div class="info black" >
+        <h1 data-aos="fade-right" data-aos-duration="1000">What the Chef can do for you...</h1>
+        <p data-aos="fade-right" data-aos-duration="1000">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque ex eum
+          voluptatem tempora quod earum suscipit est officia doloremque, saepe
+          iure libero doloribus ullam quos aliquam magni illum quis! Quidem?
+        </p>
+        <p data-aos="fade-right" data-aos-duration="1000">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi
+          sit modi sequi culpa consectetur iusto assumenda labore alias tempora.
+        </p>
+        <h2 class="book" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">Book Chef Massimo</h2>
+        <button class="recipes" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">See All Recipes</button>
+        <div class="footer">
+          <p>Chef Massimo &copy; 2020 All Rights Reserved.</p>
+        </div>
+      </div>
     </section>
-</body>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+  </body>
 </html>
