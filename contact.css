@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background-image: url(./images/logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  z-index: 5;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.massimo {
+  font-family: "Dancing Script", cursive;
+  padding-left: 100px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.nav {
+  padding-top: 50px;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  padding-right: 40px;
+}
+
+.nav ul li {
+  font-size: 0.8rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav .active {
+  border-bottom: 2px solid white;
+  line-height: 1.6rem;
+}
+.gap {
+  width: 50px;
+  height: 1px;
+  border-bottom: 2px solid white;
+  cursor: not-allowed;
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/cutlery.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.contactinfo {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cblack {
+  background: linear-gradient(90deg, transparent, black);
+  height: 100%;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  padding: 20px 40px;
+}
+.form h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+}
+.form input,
+label {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding: 3px;
+  letter-spacing: 2px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.form input::placeholder {
+  color: rgb(197, 197, 197);
+  font-style: italic;
+}
+.form input[type="text"],
+input[type="email"] {
+  border-bottom: 2px solid white;
+  color: white;
+}
+.form textarea {
+  resize: none;
+  padding: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.send {
+  height: 40px;
+  width: 150px;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: black;
+  border-radius: 10px;
+  font-weight: 1000;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 50%;
+  outline: none;
+  transform: translateX(-50%);
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.9),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.9);
+}
+.send:active {
+  outline: none;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.8),
+    inset -1px -1px 1px rgba(255, 255, 255, 0.4);
+  transition: all 0.1s ease;
+}
+
+.contactfooter {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (min-width: 325px) and (max-width: 600px) {
+  .nav > ul > li:nth-of-type(3),
+  .nav > ul > li:nth-of-type(4),
+  .nav > ul > li:nth-of-type(5),
+  .nav > ul > li:nth-of-type(6),
+  .nav > ul > li:nth-of-type(8) {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav > ul {
+    width: 100%;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+  .card {
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    height: 450px;
+    margin-left: -250px;
+  }
+
+  .footer_info {
+    font-size: 0.7rem !important;
+  }
+}
